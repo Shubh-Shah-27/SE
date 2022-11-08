@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JSON Test</title>
+</head>
+<body>
+    <div >Data extraction from data_science.json file</div>
+    <div id="error">No ERRORS!</div>
+    <div id="myData"></div>
+    <script>
+        fetch('./data_science.json')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                appendData(data);
+            })
+            .catch(function (err) {
+                var div = document.getElementById("error");
+                div.innerHTML = err;
+                console.log('error: ' + err);
+            });
+        function appendData(data) {
+            var mainContainer = document.getElementById("myData");
+            var qbank = data.dataScience;
+            for (var i = 0; i < qbank.length; i++) {
+                var div = document.createElement("div");
+                div.innerHTML = 'Question: ' + qbank[i].QuestionId + ' Answer: ' + qbank[i].Answer;
+                mainContainer.appendChild(div);
+            }
+        }
+    </script>
+</body>
+</html>
