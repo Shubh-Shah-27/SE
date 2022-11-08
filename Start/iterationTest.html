@@ -1,0 +1,100 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>GFG User Details</title>
+
+	<!-- INCLUDING JQUERY-->
+	<script src=
+"https://code.jquery.com/jquery-3.5.1.js">
+	</script>
+
+	<!-- CSS FOR STYLING THE PAGE -->
+	<style>
+		table {
+			margin: 0 auto;
+			font-size: large;
+			border: 1px solid black;
+		}
+
+		h1 {
+			text-align: center;
+			color: #006600;
+			font-size: xx-large;
+			font-family: 'Gill Sans',
+				'Gill Sans MT', ' Calibri',
+				'Trebuchet MS', 'sans-serif';
+		}
+
+		td {
+			background-color: #E4F5D4;
+			border: 1px solid black;
+		}
+
+		th,
+		td {
+			font-weight: bold;
+			border: 1px solid black;
+			padding: 10px;
+			text-align: center;
+		}
+
+		td {
+			font-weight: lighter;
+		}
+	</style>
+</head>
+
+<body>
+	<section>
+		<h1>Question Bank</h1>
+		<div id="putQuestionsHere"></div>
+			<script>
+				$(document).ready(function () {
+
+					// FETCHING DATA FROM JSON FILE
+					$.getJSON('data_science.json',
+							function (data) {
+						var student = '';
+						var topic = "dataScience";
+						data = data.dataScience;
+
+						$.each(data, function (key, value) {
+
+							console.log("#answer"+key);
+							student += '<p><b>' + value.Question +'</b></p>';
+							student += '<p>1) ' + value.OptionA + '</p>';
+							student += '<p>2) ' + value.OptionB + '</p>';
+							student += '<p>3) ' + value.OptionC + '</p>';
+							student += '<p>4) ' + value.OptionD + '</p>';
+							var id = topic+key;
+							student += '<button id="'+id+' onclick="showOrHideDiv(this.id)">View Answer</button>';
+							
+							student += '<div id:"#'+id+'>'+value.Answer+'</div>';
+							student += '<div id:"#'+id+'>'+value.Explanation+'</div>';
+							student += '<hr>';
+						});
+						
+						$('#putQuestionsHere').append(student);
+					});
+				});
+
+				function showOrHideDiv(id) {
+					console.log("Button Pressed: " + id);
+				var ans = document.getElementById(id);
+				console.log(ans);
+				var exp = document.getElementById(id);
+				console.log(exp);
+				if (ans.style.visibility === "visible") {
+					ans.style.visibility = "hidden";
+					exp.style.visibility = "hidden";
+				} else {
+					ans.style.visibility = "visible";
+					exp.style.visibility = "visible";
+				}
+				}
+			</script>
+	</section>
+</body>
+
+</html>
