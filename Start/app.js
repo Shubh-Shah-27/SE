@@ -39,6 +39,18 @@ app.get("/register",function(request, response){
     response.sendFile(path.join(__dirname+"/public/LoginPages/signUp.html"));
 })
 
+app.get("/practice", function(request, response){
+    response.sendFile(path.join(__dirname+"/public/Practice/index.html"));
+})
+
+app.get("/learn", function(request, response){
+    response.sendFile(path.join(__dirname+"/public/Learn/index.html"));
+})
+
+app.get("/community", function(request, response){
+    response.sendFile(path.join(__dirname+"/public/Community/index.html"));
+})
+
 app.post("/register",function(request, response){    
     const newUser = new User({
         name: request.body.name,
@@ -69,16 +81,17 @@ app.post("/login", function(request, response){
         else{
             if(foundUser){
                 if(foundUser.password === password){
-                    response.render("secrets");
+                    console.log("User Logged In");
+                response.sendFile(path.join(__dirname+"/public/HomePage/index.html"));
                 }
             }
         }
     });
 })
 
-// app.get("/dashboard",function(request, response){    
-//     response.render("register");
-// })
+app.get("/dashboard",function(request, response){    
+    response.sendFile(path.join(__dirname+"/public/HomePage/index.html"));
+})
 
 app.listen(3000, function(){
     console.log("Port 3000 On Listen");

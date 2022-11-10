@@ -1723,10 +1723,10 @@
             "OptionB": "set of principles and methods that specify the functioning, organisation, and implementation of computer systems",
             "OptionC": "set of functions and methods that specify the functioning, organisation, and implementation of computer systems",
             "OptionD": "None of the mentioned",
-            "Answer": ":",
+            "Answer": "b",
             "Explanation": "A set of principles and methods that specify the functioning, organisation, and implementation of computer systems is known as computer architecture. A system�s architecture refers to its structure in terms of the system�s individually specified components and their interrelationships."
-        },
-        {
+            },
+            {
             "QuestionId": "1002",
             "Question": "What is computer organization?",
             "OptionA": "structure and behaviour of a computer system as observed by the user",
@@ -1735,208 +1735,208 @@
             "OptionD": "All of the mentioned",
             "Answer": "",
             "Explanation": "The structure and behaviour of a computer system as observed by the user is the subject of computer organisation."
-        },
-        {
+            },
+            {
             "QuestionId": "1003",
             "Question": "Which of the following is a type of computer architecture?",
             "OptionA": "Microarchitecture",
             "OptionB": "Harvard Architecture",
             "OptionC": "Von-Neumann Architecture",
             "OptionD": "All of the mentioned",
-            "Answer": ":",
+            "Answer": "d",
             "Explanation": "Below are the types of Computer Architecture:"
-        },
-        {
+            },
+            {
             "QuestionId": "1004",
             "Question": "Which of the following is a type of architecture used in the computers nowadays?",
             "OptionA": "Microarchitecture",
             "OptionB": "Harvard Architecture",
             "OptionC": "Von-Neumann Architecture",
             "OptionD": "System Design",
-            "Answer": ":",
+            "Answer": "c",
             "Explanation": "John von Neumann proposed this architecture. The architecture of today�s computers is based on von Neumann architecture. It is based on a few ideas."
-        },
-        {
+            },
+            {
             "QuestionId": "1005",
             "Question": "Which of the following is the subcategories of computer architecture?",
             "OptionA": "Microarchitecture",
             "OptionB": "Instruction set architecture",
             "OptionC": "Systems design",
             "OptionD": "All of the mentioned",
-            "Answer": ":",
+            "Answer": "a",
             "Explanation": "The three main subcategories of computer architecture are:"
-        },
-        {
+            },
+            {
             "QuestionId": "1006",
             "Question": "Which of the architecture is power efficient?",
             "OptionA": "RISC",
             "OptionB": "ISA",
             "OptionC": "IANA",
             "OptionD": "CISC",
-            "Answer": ":",
+            "Answer": "a",
             "Explanation": "Hence the RISC architecture is followed in the design of mobile devices."
-        },
-        {
+            },
+            {
             "QuestionId": "1007",
             "Question": "What does CSA stands for?",
             "OptionA": "Computer Service Architecture",
             "OptionB": "Computer Speed Addition",
             "OptionC": "Carry Save Addition",
             "OptionD": "None of the mentioned",
-            "Answer": ":",
+            "Answer": "b",
             "Explanation": "The CSA is used to speed up the addition of multiplicands."
-        },
-        {
+            },
+            {
             "QuestionId": "1008",
             "Question": "If an exception is raised and the succeeding instructions are executed completely, then the processor is said to have ______",
             "OptionA": "Generation word",
             "OptionB": "Exception handling",
             "OptionC": "Imprecise exceptions",
             "OptionD": "None of the mentioned",
-            "Answer": ":",
+            "Answer": "c",
             "Explanation": "The processor since as executed the following instructions even though an exception was raised, hence the exception is treated as imprecise."
-        },
-        {
+            },
+            {
             "QuestionId": "1009",
             "Question": "To reduce the memory access time we generally make use of  ______",
             "OptionA": "SDRAM�s",
             "OptionB": "Heaps",
             "OptionC": "Cache�s",
             "OptionD": "Higher capacity RAM�s",
-            "Answer": ":",
+            "Answer": "c",
             "Explanation": "The time required to access a part of the memory for data retrieval."
-        },
-        {
+            },
+            {
             "QuestionId": "1010",
             "Question": "The IA-32 system follows which of the following design?",
             "OptionA": "CISC",
             "OptionB": "SIMD",
             "OptionC": "RISC",
             "OptionD": "None of the mentioned",
-            "Answer": ":",
+            "Answer": "a",
             "Explanation": "This system architecture is used to reduce the steps involved in execution by performing complex operations in one step."
-        },
-        {
+            },
+            {
             "QuestionId": "1011",
             "Question": "Which of the following architecture is suitable for a wide range of data types?",
             "OptionA": "IA-32",
             "OptionB": "ARM",
             "OptionC": "ASUS firebird",
             "OptionD": "68000",
-            "Answer": ":",
+            "Answer": "a",
             "Explanation": "IA-32 architecture is suitable for a wide range of data types."
-        },
-        {
+            },
+            {
             "QuestionId": "1012",
             "Question": "In IA-32 architecture along with the general flags, which of the following conditional flags are provided?",
             "OptionA": "TF",
             "OptionB": "IOPL",
             "OptionC": "IF",
             "OptionD": "All of the mentioned",
-            "Answer": ":",
+            "Answer": "d",
             "Explanation": "These flags are basically used to check the system for exceptions."
-        },
-        {
+            },
+            {
             "QuestionId": "1013",
             "Question": "The VLIW architecture follows _____ approach to achieve parallelism.",
             "OptionA": "SISD",
             "OptionB": "MIMD",
             "OptionC": "MISD",
             "OptionD": "SIMD",
-            "Answer": ":",
+            "Answer": "b",
             "Explanation": "The MIMD stands for Multiple Instructions Multiple Data."
-        },
-        {
+            },
+            {
             "QuestionId": "1014",
             "Question": "What does VLIW stands for?",
             "OptionA": "Very Long Instruction Width",
             "OptionB": "Very Large Instruction Word",
             "OptionC": "Very Long Instruction Width",
             "OptionD": "Very Long Instruction Word",
-            "Answer": ":",
+            "Answer": "d",
             "Explanation": "It is the architecture designed to perform multiple operations in parallel."
-        },
-        {
+            },
+            {
             "QuestionId": "1015",
             "Question": "In CISC architecture most of the complex instructions are stored in _____",
             "OptionA": "CMOS",
             "OptionB": "Register",
             "OptionC": "Transistors",
             "OptionD": "Diodes",
-            "Answer": ":",
+            "Answer": "c",
             "Explanation": "In CISC architecture more emphasis is given on the instruction set and the instructions take over a cycle to complete."
-        },
-        {
+            },
+            {
             "QuestionId": "1016",
             "Question": "Both the CISC and RISC architectures have been developed to reduce the ______",
             "OptionA": "Time delay",
             "OptionB": "Semantic gap",
             "OptionC": "Cost",
             "OptionD": "All of the mentioned",
-            "Answer": ":",
+            "Answer": "b",
             "Explanation": "The semantic gap is the gap between the high level language and the low level language."
-        },
-        {
+            },
+            {
             "QuestionId": "1017",
             "Question": "________ are the different type/s of generating control signals.",
             "OptionA": "Hardwired",
             "OptionB": "Micro-instruction",
             "OptionC": "Micro-programmed",
             "OptionD": "Both Micro-programmed and Hardwired",
-            "Answer": ":",
+            "Answer": "d",
             "Explanation": "The above is used to generate control signals in different types of system architectures."
-        },
-        {
+            },
+            {
             "QuestionId": "1018",
             "Question": "If the instruction Add R1, R2, R3 is executed in a system which is pipelined, then the value of S is (Where S is term of the Basic performance equation).",
             "OptionA": "2",
             "OptionB": "~1",
             "OptionC": "~7",
             "OptionD": "2",
-            "Answer": ":",
+            "Answer": "b",
             "Explanation": "The value will be much lower in case of multiple BUS organisation."
-        },
-        {
+            },
+            {
             "QuestionId": "1019",
             "Question": "The small extremely fast, RAM�s all called as ________",
             "OptionA": "Heaps",
             "OptionB": "Accumulators",
             "OptionC": "Stacks",
             "OptionD": "Cache",
-            "Answer": ":",
+            "Answer": "a",
             "Explanation": "Cache�s are extremely essential in single BUS organisation to achieve fast operation."
-        },
-        {
+            },
+            {
             "QuestionId": "1020",
             "Question": "For a given FINITE number of instructions to be executed, which architecture of the processor provides for a faster execution?",
             "OptionA": "ANSA",
             "OptionB": "Super-scalar",
             "OptionC": "ISA",
             "OptionD": "All of the mentioned",
-            "Answer": ":",
+            "Answer": "b",
             "Explanation": "In super-scalar architecture, the instructions are set in groups and they�re decoded and executed together reducing the amount of time required to process them."
-        },
-        {
+            },
+            {
             "QuestionId": "1021",
             "Question": "What is the full form of ISA?",
             "OptionA": "Industry Standard Architecture",
             "OptionB": "International Standard Architecture",
             "OptionC": "International American Standard",
             "OptionD": "None of the mentioned",
-            "Answer": ":",
+            "Answer": "c",
             "Explanation": "The ISA is an architectural standard developed by IBM for its PC�s."
-        },
-        {
+            },
+            {
             "QuestionId": "1022",
             "Question": "Which of the following is the fullform of CISC?",
             "OptionA": "Complex Instruction Sequential Compilation",
             "OptionB": "Complete Instruction Sequential Compilation",
             "OptionC": "Computer Integrated Sequential Compiler",
             "OptionD": "Complex Instruction Set Computer",
-            "Answer": ":",
+            "Answer": "d",
             "Explanation": "The CISC machines are well adept at handling multiple BUS organisation."
-        },
-        {
+            },
+            {
             "QuestionId": "1023",
             "Question": "The reason for the cells to lose their state over time is ________",
             "OptionA": "Use of Shift registers",
@@ -1945,8 +1945,8 @@
             "OptionD": "None of the mentioned",
             "Answer": "",
             "Explanation": "Since capacitors are used the charge dissipates over time."
-        },
-        {
+            },
+            {
             "QuestionId": "1024",
             "Question": "In order to read multiple bytes of a row at the same time, we make use of ______",
             "OptionA": "Memory extension",
@@ -1955,8 +1955,8 @@
             "OptionD": "Latch",
             "Answer": "",
             "Explanation": "The latch makes it easy to ready multiple bytes of data of the same row simultaneously by just giving the consecutive column address."
-        },
-        {
+            },
+            {
             "QuestionId": "1025",
             "Question": "The difference in the address and data connection between DRAM�s and SDRAM�s is _______",
             "OptionA": "The requirement of more address lines in SDRAM�s",
@@ -1965,8 +1965,8 @@
             "OptionD": "None of the mentioned",
             "Answer": "",
             "Explanation": "The SDRAM uses buffered storage of address and data."
-        },
-        {
+            },
+            {
             "QuestionId": "1026",
             "Question": "The chip can be disabled or cut off from an external connection using ______",
             "OptionA": "ACPT",
@@ -1975,8 +1975,8 @@
             "OptionD": "Chip select",
             "Answer": "",
             "Explanation": "The chip gets enabled if the CS is set otherwise the chip gets disabled."
-        },
-        {
+            },
+            {
             "QuestionId": "1027",
             "Question": "The controller multiplexes the addresses after getting the _____ signal.",
             "OptionA": "INTR",
@@ -1985,8 +1985,8 @@
             "OptionD": "Request",
             "Answer": "",
             "Explanation": "The controller gets the request from the device needing the memory read or write operation and then it multiplexes the address."
-        },
-        {
+            },
+            {
             "QuestionId": "1028",
             "Question": "The data is transferred over the RAMBUS as _______",
             "OptionA": "Blocks",
@@ -1995,8 +1995,8 @@
             "OptionD": "Packets",
             "Answer": "",
             "Explanation": "By using voltage swings to transfer data, the transfer rate along with efficiency is improved."
-        },
-        {
+            },
+            {
             "QuestionId": "1029",
             "Question": "The memory devices which are similar to EEPROM but differ in the cost effectiveness is ______",
             "OptionA": "CMOS",
@@ -2005,8 +2005,8 @@
             "OptionD": "Flash memory",
             "Answer": "",
             "Explanation": "The flash memory functions similar to the EEPROM but is much cheaper."
-        },
-        {
+            },
+            {
             "QuestionId": "1030",
             "Question": "The flash memory modules designed to replace the functioning of a hard disk is ______",
             "OptionA": "RIMM",
@@ -2015,8 +2015,8 @@
             "OptionD": "DIMM",
             "Answer": "",
             "Explanation": "The flash drives have been developed to provide faster operation but with lesser space."
-        },
-        {
+            },
+            {
             "QuestionId": "1031",
             "Question": "The drawback of building a large memory with DRAM is ______________",
             "OptionA": "The Slow speed of operation",
@@ -2025,8 +2025,8 @@
             "OptionD": "All of the mentioned",
             "Answer": "",
             "Explanation": "The DRAM�s were used for large memory modules for a long time until a substitute was found."
-        },
-        {
+            },
+            {
             "QuestionId": "1032",
             "Question": "In a 4M-bit chip organisation has a total of 19 external connections, then it has _______ address if 8 data lines are there.",
             "OptionA": "2",
@@ -2035,66 +2035,66 @@
             "OptionD": "8",
             "Answer": "",
             "Explanation": "To have 8 data lines and 19 external connections it has to have 9 address lines(i.e 512 x 8 organisation)."
-        },
-        {
+            },
+            {
             "QuestionId": "1033",
             "Question": "What does ISO stands for?",
             "OptionA": "International Software Organisation",
             "OptionB": "Industrial Software Organisation",
             "OptionC": "International Standards Organisation",
             "OptionD": "Industrial Standards Organisation",
-            "Answer": ":",
+            "Answer": "c",
             "Explanation": "The ISO is yet another architectural standard, used to design systems."
-        },
-        {
+            },
+            {
             "QuestionId": "1034",
             "Question": "The bit used to signify that the cache location is updated is ________",
             "OptionA": "Flag bit",
             "OptionB": "Reference bit",
             "OptionC": "Update bit",
             "OptionD": "Dirty bit",
-            "Answer": ":",
+            "Answer": "d",
             "Explanation": "When the cache location is updated in order to signal to the processor this bit is used."
-        },
-        {
+            },
+            {
             "QuestionId": "1035",
             "Question": "During a write operation if the required block is not present in the cache then ______ occurs.",
             "OptionA": "Write miss",
             "OptionB": "Write latency",
             "OptionC": "Write hit",
             "OptionD": "Write delay",
-            "Answer": ":",
+            "Answer": "a",
             "Explanation": "This indicates that the operation has missed and it brings the required block into the cache."
-        },
-        {
+            },
+            {
             "QuestionId": "1036",
             "Question": "While using the direct mapping technique, in a 16 bit system the higher order 5 bits are used for ________",
             "OptionA": "Id",
             "OptionB": "Word",
             "OptionC": "Tag",
             "OptionD": "Block",
-            "Answer": ":",
+            "Answer": "c",
             "Explanation": "The tag is used to identify the block mapped onto one particular cache block."
-        },
-        {
+            },
+            {
             "QuestionId": "1037",
             "Question": "The bit used to indicate whether the block was recently used or not is _______",
             "OptionA": "Reference bit",
             "OptionB": "Dirty bit",
             "OptionC": "Control bit",
             "OptionD": "Idol bit",
-            "Answer": ":",
+            "Answer": "b",
             "Explanation": "The dirty bit is used to show that the block was recently modified and for a replacement algorithm."
-        },
-        {
+            },
+            {
             "QuestionId": "1038",
             "Question": "The number successful accesses to memory stated as a fraction is called as _____",
             "OptionA": "Access rate",
             "OptionB": "Success rate",
             "OptionC": "Hit rate",
             "OptionD": "Miss rate",
-            "Answer": ":",
+            "Answer": "c",
             "Explanation": "The hit rate is an important factor in performance measurement."
-        }
+            }
     ]
 }
