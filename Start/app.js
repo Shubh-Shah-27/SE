@@ -84,6 +84,9 @@ app.post("/login", function(request, response){
                     console.log("User Logged In");
                 response.sendFile(path.join(__dirname+"/public/HomePage/index.html"));
                 }
+                else{
+                    console.log("Wrong Password");
+                }
             }
         }
     });
