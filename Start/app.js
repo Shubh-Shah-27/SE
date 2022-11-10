@@ -52,7 +52,7 @@ app.post("/register",function(request, response){
         }
         else{
             console.log("User Registered");
-            response.sendFile(path.join(__dirname+"/jsonFetchTest.html"));
+            response.sendFile(path.join(__dirname+"/public/HomePage/index.html"));
             // response.render("secrets");
         }
     });
