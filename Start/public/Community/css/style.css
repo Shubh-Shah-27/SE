@@ -34,11 +34,15 @@
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
 * {
-     box-sizing: border-box !important;
+     /* box-sizing: border-box !important; */
+     margin: 0!important;
+     /* padding: 0!important; */
 }
 
 html {
      scroll-behavior: smooth;
+     margin: 0 0 0 0;
+     padding: 0 0 0 0;
 }
 
 body {
