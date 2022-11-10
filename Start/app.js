@@ -43,6 +43,10 @@ app.get("/practice", function(request, response){
     response.sendFile(path.join(__dirname+"/public/Practice/index.html"));
 })
 
+app.get("/quiz", function(request, response){
+    response.sendFile(path.join(__dirname+"/public/Quiz/index.html"));
+})
+
 app.get("/learn", function(request, response){
     response.sendFile(path.join(__dirname+"/public/Learn/index.html"));
 })
