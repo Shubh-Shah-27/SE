@@ -1,4 +1,6 @@
 //jshint esversion:6
+
+// Requirements
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
@@ -14,19 +16,24 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
+// Connection with Database
 mongoose.connect("mongodb://localhost:27017/UserDB", {useNewUrlParser: true});
 
+// Schema of the Collection
 const userSchema = new mongoose.Schema({
     name: String,
     email: String,
     password: String
 });
 
+// Encryption
 const encryptionKey = "ThisIsTheKey.";
 userSchema.plugin(encryption, {secret: encryptionKey, encryptedFields: ["password"]});
 
+// Creating Collection
 const User = new mongoose.model("User", userSchema);
 
+// GET POST Requests
 app.get("/",function(request, response){  
     response.render("home");
 })
@@ -99,6 +106,7 @@ app.get("/dashboard",function(request, response){
     response.sendFile(path.join(__dirname+"/public/HomePage/index.html"));
 })
 
+// Activate at Port 3000
 app.listen(3000, function(){
     console.log("Port 3000 On Listen");
 })

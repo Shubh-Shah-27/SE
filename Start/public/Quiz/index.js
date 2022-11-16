@@ -725,7 +725,7 @@ function handleNextQuestion() {
             NextQuestion(indexNumber)
         }
         else {
-            handleEndGame()//ends game if index number greater than 9 meaning we're already at the 10th question
+            generateReport()//ends game if index number greater than 9 meaning we're already at the 10th question
         }
         resetOptionBackground()
     }, 1000);
@@ -748,7 +748,7 @@ function unCheckRadioButtons() {
 }
 
 // function for when all questions being answered
-function handleEndGame() {
+function generateReport() {
     let remark = null
     let remarkColor = null
 
